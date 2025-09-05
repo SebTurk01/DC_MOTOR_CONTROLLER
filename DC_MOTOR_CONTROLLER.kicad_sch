@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4e267608-d3e9-4ae4-92d6-1e687cc2c969")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 21.59)
+		(size 67.31 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "379d12ce-71de-4eea-8ed9-a3b882af70a6")
+		(property "Sheetname" "power"
+			(at 20.32 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_sh.kicad_sch"
+			(at 20.32 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 77.47)
+		(size 68.58 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54fa1aa8-a682-4b76-801e-5824b9cbbd17")
+		(property "Sheetname" "h_bridge"
+			(at 20.32 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h_bridge.kicad_sch"
+			(at 20.32 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 22.86)
+		(size 72.39 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "818b61c9-cdb7-42ed-8a55-79736ba5dd65")
+		(property "Sheetname" "io"
+			(at 111.76 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 111.76 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 22.86)
+		(size 74.93 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d41814e3-b384-45d2-b979-f4a0598b2a06")
+		(property "Sheetname" "micro"
+			(at 199.39 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 199.39 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 77.47)
+		(size 72.39 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6072f04-ceb1-44be-952c-b7ab59fe800e")
+		(property "Sheetname" "pwm_source"
+			(at 111.76 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_source.kicad_sch"
+			(at 111.76 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
