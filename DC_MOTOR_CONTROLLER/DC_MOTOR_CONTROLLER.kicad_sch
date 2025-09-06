@@ -123,6 +123,16 @@
 				(justify left top)
 			)
 		)
+		(pin "3Vdd" input
+			(at 111.76 35.56 180)
+			(uuid "d4fc9aa7-692d-4746-a4ac-6814a9040fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "DC_MOTOR_CONTROLLER"
 				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969"
@@ -205,6 +215,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5Vdd" input
+			(at 111.76 90.17 180)
+			(uuid "b43d1480-1b3a-4ba3-85e2-65967eeaaffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
