@@ -1264,7 +1264,7 @@
 		(uuid "0f524c67-46aa-4e0d-9b8e-b494b57e50fa")
 	)
 	(junction
-		(at 115.57 73.66)
+		(at 22.86 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fe42a1-a4af-44b3-beeb-fe9a9620c203")
@@ -1295,6 +1295,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 72.39) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074bb9ca-37e9-46d2-81a9-2951eeaef6df")
+	)
+	(wire
+		(pts
 			(xy 60.96 40.64) (xy 69.85 40.64)
 		)
 		(stroke
@@ -1305,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 113.03 73.66)
+			(xy 20.32 154.94) (xy 20.32 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1325,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 120.65 73.66)
+			(xy 105.41 63.5) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1b3466-6d9c-4c08-993b-a790e3817469")
+	)
+	(wire
+		(pts
+			(xy 22.86 162.56) (xy 27.94 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 149.86 71.12)
+			(xy 46.99 160.02) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1425,6 +1445,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 63.5) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db70f24-7b9a-45ab-8050-6197e65a9738")
+	)
+	(wire
+		(pts
 			(xy 67.31 80.01) (xy 60.96 80.01)
 		)
 		(stroke
@@ -1435,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 115.57 73.66)
+			(xy 20.32 162.56) (xy 22.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1465,6 +1495,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82eed1b-d999-4d01-a3d6-709b18432a45")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 91.44 68.58)
 		)
 		(stroke
@@ -1485,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 149.86 66.04)
+			(xy 35.56 154.94) (xy 57.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1545,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 139.7 71.12)
+			(xy 105.41 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0372242-0b39-4a20-9bb2-f9539311084a")
+	)
+	(wire
+		(pts
+			(xy 46.99 173.99) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1522,16 +1572,6 @@
 			(type default)
 		)
 		(uuid "daf4b23c-700d-4a26-9f86-a775c9acb65c")
-	)
-	(wire
-		(pts
-			(xy 100.33 58.42) (xy 120.65 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2089551-1a47-4b86-a957-12001409d3fe")
 	)
 	(wire
 		(pts
@@ -1565,7 +1605,7 @@
 	)
 	(hierarchical_label "5Vdd"
 		(shape input)
-		(at 154.94 60.96 90)
+		(at 62.23 149.86 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1664,7 +1704,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 76.2 0)
+		(at 62.23 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1673,7 +1713,7 @@
 		(fields_autoplaced yes)
 		(uuid "083472b5-0a8f-41fe-94d8-6ca7926e68dc")
 		(property "Reference" "#PWR014"
-			(at 154.94 82.55 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 81.28 0)
+			(at 62.23 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 76.2 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 76.2 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 76.2 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1770,7 @@
 	)
 	(symbol
 		(lib_id "Diode_Bridge:MDB8S")
-		(at 120.65 66.04 0)
+		(at 27.94 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1739,7 +1779,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fc827c5-7953-4781-8ddd-c5e1a4b461c1")
 		(property "Reference" "D9"
-			(at 130.81 59.6198 0)
+			(at 38.1 148.5198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1787,7 @@
 			)
 		)
 		(property "Value" "MDB8S"
-			(at 130.81 62.1598 0)
+			(at 38.1 151.0598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1795,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
-			(at 120.65 66.04 0)
+			(at 27.94 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
-			(at 120.65 66.04 0)
+			(at 27.94 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1813,7 @@
 			)
 		)
 		(property "Description" "Single-Phase Bridge Rectifier, 560V Vrms, 1A If, TSSOP-4"
-			(at 120.65 66.04 0)
+			(at 27.94 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,15 +1853,15 @@
 		(fields_autoplaced yes)
 		(uuid "103ee562-2f94-4da1-9764-26a575a50849")
 		(property "Reference" "C12"
-			(at 73.66 48.26 90)
+			(at 73.66 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 73.66 45.72 90)
+		(property "Value" "3n"
+			(at 73.66 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1912,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 40.64 270)
+		(at 85.09 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1881,15 +1921,15 @@
 		(fields_autoplaced yes)
 		(uuid "29d09d7a-fb4e-4fdc-b6c6-9f9ebf9b23df")
 		(property "Reference" "R4"
-			(at 85.09 46.99 90)
+			(at 85.09 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 85.09 44.45 90)
+		(property "Value" "4k"
+			(at 85.09 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 38.862 90)
+			(at 85.09 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1995,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "3n"
 			(at 53.086 67.31 90)
 			(effects
 				(font
@@ -2007,7 +2047,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:MCP4725xxx-xCH")
-		(at 139.7 95.25 90)
+		(at 46.99 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2016,7 +2056,7 @@
 		(fields_autoplaced yes)
 		(uuid "34679027-5f2a-499e-8784-431a0d8644d8")
 		(property "Reference" "U6"
-			(at 154.94 89.8046 90)
+			(at 62.23 178.7046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2064,7 @@
 			)
 		)
 		(property "Value" "MCP4725xxx-xCH"
-			(at 154.94 92.3446 90)
+			(at 62.23 181.2446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2072,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 146.05 95.25 0)
+			(at 53.34 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2081,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
-			(at 139.7 95.25 0)
+			(at 46.99 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2090,7 @@
 			)
 		)
 		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
-			(at 139.7 95.25 0)
+			(at 46.99 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2127,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:TL331")
-		(at 157.48 68.58 0)
+		(at 64.77 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2096,7 +2136,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2c7358-2962-45e1-abc6-f3a0e2b53dc6")
 		(property "Reference" "U5"
-			(at 166.37 62.1598 0)
+			(at 73.66 151.0598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2144,7 @@
 			)
 		)
 		(property "Value" "TL331"
-			(at 166.37 64.6998 0)
+			(at 73.66 153.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2152,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 158.75 83.82 0)
+			(at 66.04 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2161,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl331.pdf"
-			(at 157.48 63.5 0)
+			(at 64.77 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2170,7 @@
 			)
 		)
 		(property "Description" "Single Differential Comparator with Open-Collector Output, SOT-23-5"
-			(at 157.48 68.58 0)
+			(at 64.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120k"
 			(at 87.63 74.168 90)
 			(effects
 				(font
@@ -2296,8 +2336,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358_DFN")
+		(at 118.11 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86c28dc1-36e5-4fa9-946f-0a42fe05570b")
+		(property "Reference" "U7"
+			(at 121.158 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358_DFN"
+			(at 122.428 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/lm358.pdf"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eae1a9ff-baee-4f55-bb9b-bb4c3dd31fbb")
+		)
+		(pin "4"
+			(uuid "c4067631-6514-4521-96f1-83a4e63af2e3")
+		)
+		(pin "6"
+			(uuid "3b101d76-b2b6-4807-bc89-769a0f4eaeb4")
+		)
+		(pin "2"
+			(uuid "45d9300e-5745-4298-8552-822412fa3283")
+		)
+		(pin "7"
+			(uuid "209333d0-276b-488f-bb68-27c4ccceefaf")
+		)
+		(pin "8"
+			(uuid "eb77afde-b0a3-4a73-8e3a-30e3ad15e81a")
+		)
+		(pin "1"
+			(uuid "fec7e971-2888-40f2-bdc7-048f69d6e011")
+		)
+		(pin "5"
+			(uuid "06705437-3e05-4899-8edb-02f9bceafab8")
+		)
+		(pin "9"
+			(uuid "1854d713-35c1-4646-8154-f941e597643a")
+		)
+		(instances
+			(project "DC_MOTOR_CONTROLLER"
+				(path "/4e267608-d3e9-4ae4-92d6-1e687cc2c969/e6072f04-ceb1-44be-952c-b7ab59fe800e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 115.57 73.66 0)
+		(at 22.86 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2306,7 +2434,7 @@
 		(fields_autoplaced yes)
 		(uuid "97919fc9-914b-41c3-b7e0-dbb31bc4f211")
 		(property "Reference" "#PWR013"
-			(at 115.57 80.01 0)
+			(at 22.86 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 78.74 0)
+			(at 22.86 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 73.66 0)
+			(at 22.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 73.66 0)
+			(at 22.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 73.66 0)
+			(at 22.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2506,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50k"
 			(at 80.01 74.676 90)
 			(effects
 				(font
@@ -2439,19 +2567,21 @@
 		(fields_autoplaced yes)
 		(uuid "f3b23887-4f9f-42a5-807d-27e95926ac9c")
 		(property "Reference" "R5"
-			(at 73.66 67.31 90)
+			(at 69.85 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 71.12 67.31 90)
+		(property "Value" "4k"
+			(at 69.85 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

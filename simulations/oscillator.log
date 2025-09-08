@@ -1,0 +1,22 @@
+Circuit: * C:\Users\sebtu\Desktop\DC_MOTOR_CONTROLLER\simulations\oscillator.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Sep 07 14:56:03 2025
+Total elapsed time: 1.178 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 101860
+traniter = 101844
+tranpoints = 36162
+accept = 25856
+rejected = 10306
+matrix size = 28
+fillins = 13
+solver = Normal
+Thread vector: 5.8/7.7[2] 3.3/2.1[2] 1.6/1.5[1] 0.2/1.0[1]  2592/500
+Matrix Compiler1:     128 opcodes  0.5/[0.2]/0.3
+Matrix Compiler2: off  [0.3]/0.5/0.3
+
