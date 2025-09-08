@@ -2,25 +2,10 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
-      "defaults": {
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
-        "other_line_width": 0.15,
-        "silk_line_width": 0.15,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
-      },
+      "defaults": {},
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "rules": {
-        "min_copper_edge_clearance": 0.0,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
-      },
+      "rules": {},
       "track_widths": [],
       "via_dimensions": []
     },
@@ -219,7 +204,6 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -284,9 +268,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -426,28 +410,28 @@
   },
   "sheets": [
     [
-      "4e267608-d3e9-4ae4-92d6-1e687cc2c969",
+      "047d9411-04a2-44fb-b408-2da9c75da8e5",
       "Root"
     ],
     [
-      "379d12ce-71de-4eea-8ed9-a3b882af70a6",
+      "8b8f51e5-3dee-44cc-b84c-360f3e68a242",
       "power"
     ],
     [
-      "818b61c9-cdb7-42ed-8a55-79736ba5dd65",
-      "io"
+      "b08e856a-d64d-487c-a251-5ac8a9b1a73c",
+      "pwm"
     ],
     [
-      "d41814e3-b384-45d2-b979-f4a0598b2a06",
+      "b4a034b3-7ad6-4e18-82b0-48539323e062",
       "micro"
     ],
     [
-      "54fa1aa8-a682-4b76-801e-5824b9cbbd17",
-      "h_bridge"
+      "c1e3a7b0-73cb-4253-80e8-3d76094cfe0f",
+      "io"
     ],
     [
-      "e6072f04-ceb1-44be-952c-b7ab59fe800e",
-      "pwm_source"
+      "666b2d0a-c560-4508-9087-57135ec76f02",
+      "h_bridge"
     ]
   ],
   "text_variables": {}
